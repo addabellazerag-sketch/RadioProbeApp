@@ -1,0 +1,19 @@
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.BLUETOOTH" />
+
+<application
+    android:theme="@android:style/Theme.Material.Light.NoActionBar"
+    android:label="RadioProbe"
+    android:allowBackup="false">
+
+    <activity
+        android:name="com.example.radioprobe.MainActivity"
+        android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+</application>
